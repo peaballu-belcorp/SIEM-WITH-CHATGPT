@@ -1,51 +1,50 @@
 # SIEM-WITH-CHATGPT
 # MICROSOFT SENTINAL
 
-Microsoft Sentinel is a scalable, cloud-native security information and event management (SIEM) that delivers an intelligent and comprehensive solution for SIEM and security orchestration, automation, and response (SOAR). Microsoft Sentinel provides cyberthreat detection, investigation, response, and proactive hunting, with a bird's-eye view across your enterprise.
+Microsoft Sentinel es un sistema de gestión de información y eventos de seguridad (SIEM) escalable y nativo de la nube, que ofrece una solución inteligente y completa para SIEM, así como para la orquestación, automatización y respuesta de seguridad (SOAR). Microsoft Sentinel proporciona detección de ciberamenazas, investigación, respuesta y búsqueda proactiva, ofreciendo una vista panorámica de toda tu organización.
 
-Microsoft Sentinel also natively incorporates proven Azure services, like Log Analytics and Logic Apps, and enriches your investigation and detection with AI. It uses both Microsoft's threat intelligence stream and also enables you to bring your own threat intelligence.
+Microsoft Sentinel incorpora de manera nativa servicios probados de Azure, como Log Analytics y Logic Apps, y enriquece tus investigaciones y detecciones con inteligencia artificial. Utiliza tanto el flujo de inteligencia de amenazas de Microsoft como la posibilidad de integrar tu propia inteligencia de amenazas.
 
-Use Microsoft Sentinel to alleviate the stress of increasingly sophisticated attacks, increasing volumes of alerts, and long resolution time frames. This article highlights the key capabilities in Microsoft Sentinel.
+Utiliza Microsoft Sentinel para aliviar el estrés causado por ataques cada vez más sofisticados, el creciente volumen de alertas y los prolongados tiempos de resolución. Este artículo destaca las capacidades clave de Microsoft Sentinel.
 
 
 ![image](https://github.com/user-attachments/assets/63201be3-6b2b-4353-b2a6-64f6c37cc3f9)
 
-## WHAT MY PROJECT IS ABOUT??
-SIEM INTEGRATION WITH ARTIFICIAL INTELLIGENCE CHATGPT.
+## ¿DE QUÉ TRATA MI PROYECTO?
+INTEGRACIÓN DE SIEM CON INTELIGENCIA ARTIFICIAL CHATGPT
 
-### Integrating ChatGPT with Microsoft Sentinel SIEM can:
-* Enhance Threat Detection: Provide insights on alerts, correlate events, and prioritize incidents.
-* Automate Incident Response: Assist with playbooks, suggest remediation steps, and guide real-time responses.
-* Improve Threat Intelligence: Analyze threat data, suggest IoCs, and enable proactive threat hunting.
-* Assist with Log Queries: Help craft and optimize KQL queries, and explain results.
-* Generate Reports: Automate detailed security reporting for both technical and non-technical audiences.
-* Enable Natural Language Interaction: Simplify security operations by allowing users to interact with Sentinel via plain language.
-* It streamlines security workflows, enhances detection, and speeds up incident response.
+Integrar ChatGPT con Microsoft Sentinel SIEM puede:
+* Mejorar la detección de amenazas: Proporcionar análisis de alertas, correlacionar eventos y priorizar incidentes.
+* Automatizar la respuesta a incidentes: Ayudar con playbooks, sugerir pasos de remediación y guiar respuestas en tiempo real.
+* Optimizar la inteligencia de amenazas: Analizar datos de amenazas, sugerir IoCs (Indicadores de Compromiso) y habilitar la búsqueda proactiva de amenazas.
+* Asistir en consultas de registros: Ayudar a redactar y optimizar consultas KQL y explicar los resultados.
+* Generar informes: Automatizar la creación de reportes detallados de seguridad para audiencias técnicas y no técnicas.
+* Habilitar la interacción en lenguaje natural: Simplificar las operaciones de seguridad al permitir a los usuarios interactuar con Sentinel en lenguaje sencillo.
+* Esta integración optimiza los flujos de trabajo de seguridad, mejora la detección de amenazas y acelera la respuesta a incidentes.
 
-STEPS HOW I INTEGRATE CHATGPT:
-STEP-1:
-FIRSTLY WE NEED TO CREATE OUR WORKSPACE
+PASOS PARA INTEGRAR CHATGPT:
+PASO 1:
+PRIMERO, NECESITAMOS CREAR NUESTRO ESPACIO DE TRABAJO.
 ![Screenshot 2024-09-24 131511](https://github.com/user-attachments/assets/e84c547f-bde8-4fbc-90ce-d3863bf4a51f)
 
-STEP-2 :
-WE NEED TO CREATE LOGIC FOR PLAYBOOK.
+PASO 2:
+NECESITAMOS CREAR LA LÓGICA PARA EL PLAYBOOK.
 
-WHAT ARE PLAYBOOK IN SENTINAL?
-In Microsoft Sentinel, a playbook is an automated workflow designed to respond to security incidents and alerts. Playbooks use Azure Logic Apps to define a sequence of actions that are triggered when certain conditions are met, such as the detection of a specific type of alert or incident.
+¿Qué son los playbooks en Sentinel?
+En Microsoft Sentinel, un playbook es un flujo de trabajo automatizado diseñado para responder a incidentes y alertas de seguridad. Los playbooks utilizan Azure Logic Apps para definir una secuencia de acciones que se activan cuando se cumplen ciertas condiciones, como la detección de un tipo específico de alerta o incidente.
 
 
 ![Screenshot 2024-10-02 153957](https://github.com/user-attachments/assets/7064692d-9d53-43d7-a1c6-e022aa57f590)
 ![Screenshot 2024-10-02 171210](https://github.com/user-attachments/assets/07555030-f055-434a-bc21-f3441e10dd3b)
 
 
-WHILE BUILDING THE LOGIC WE NEED TO INTEGRATE THE CHATGPT BY IMPORTING WITH OUR SECRET KEY PROVIDED BY OPENAI.
+AL CREAR LA LÓGICA, NECESITAMOS INTEGRAR CHATGPT IMPORTÁNDOLO MEDIANTE NUESTRA CLAVE SECRETA PROPORCIONADA POR OPENAI.
 
 THEN WE NEED TO CREATE A AUTOMATION INCLUDES:
 ![Screenshot 2024-10-02 190845](https://github.com/user-attachments/assets/a49c15c6-1530-47cc-ae65-240d14bcaae1)
 ![Screenshot 2024-10-02 172500](https://github.com/user-attachments/assets/c6f0b2a6-e8d5-4ea4-83a8-7ad413cf478c)
 
 
-WHEN ANY INCIDENT CREATED THE AUTOMATION AUTOMATICALLY TRIGGERS AND ANALYZE THE INCIDENT BY CHATGPT AND PROVIDE A
-OVERVIEW OF INCIDENT AND MITIGATING PROCESS.
+CUANDO SE CREA UN INCIDENTE, LA AUTOMATIZACIÓN SE ACTIVA AUTOMÁTICAMENTE, ANALIZA EL INCIDENTE UTILIZANDO CHATGPT Y PROPORCIONA UNA VISIÓN GENERAL DEL INCIDENTE Y DEL PROCESO DE MITIGACIÓN.
 
 ![Screenshot 2024-10-02 171843](https://github.com/user-attachments/assets/9cfc0059-3799-4d21-8217-a9846b509e34)
